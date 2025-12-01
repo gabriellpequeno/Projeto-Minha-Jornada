@@ -1,5 +1,5 @@
 # Uma Jornada de Aprendizado
-[Inicio](./Index.md) | [Gerenciamento de Versão](./moduloVersionamento.md)
+[Gerenciamento de Versão](./moduloVersionamento.md)
 
 
 ## Parte 1 | A Evolução da Internet
