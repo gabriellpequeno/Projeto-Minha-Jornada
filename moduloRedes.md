@@ -165,6 +165,16 @@ Utiliza endereços de 128 bits, representados por oito grupos de quatro dígitos
 
   
 
+### Network Address Translation (NAT)
+
+O NAT (Network Address Translation) é uma técnica que permite que múltiplos dispositivos em uma rede privada (usando endereços IP privados) compartilhem um único endereço IP público para acessar a Internet. Sua principal função é a conservação de endereços IPv4 e a adição de uma camada de segurança, pois oculta a topologia da rede interna.
+
+| Tipo de NAT | Descrição | Uso Principal |
+|--|--|--|
+| NAT Estático| Mapeamento fixo e um-para-um de um endereço IP privado para um endereço IP público. | Servidores internos que precisam ser acessíveis externamente. |
+| NAT Dinâmico | Mapeamento de endereços IP privados para um pool de endereços IP públicos disponíveis. | Redes internas que precisam de acesso externo, mas o número de IPs públicos é limitado. |
+| PAT (Port Address Translation) | Também conhecido como NAT de sobrecarga. Mapeia múltiplos endereços IP privados para um único endereço IP público, diferenciando as conexões pelas portas de origem.| O tipo mais comum, usado em redes domésticas e pequenas empresas para compartilhar uma única conexão de Internet. |
+
 ### Portas de Endereços IP
 
 As portas são identificadores que em conjunto do IP permite que os dados cheguem aos processos ou aplicativos devidos.
